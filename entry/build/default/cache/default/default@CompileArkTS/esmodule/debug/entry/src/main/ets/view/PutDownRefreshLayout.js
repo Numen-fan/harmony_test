@@ -51,7 +51,7 @@ export default class PutDownRefresh extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Image.create({ "id": 16777247, "type": 20000, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
+            Image.create({ "id": 16777316, "type": 20000, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
             Image.width(commonConst.ICON_WIDTH);
             Image.height(commonConst.ICON_HEIGHT);
             if (!isInitialRender) {

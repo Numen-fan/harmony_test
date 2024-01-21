@@ -12,6 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+import router from '@ohos:router';
 import * as commonConst from '@bundle:com.example.list_harmony/entry/ets/common/CommonConstants';
 import { ListDataSource } from '@bundle:com.example.list_harmony/entry/ets/viewmodel/ListDataSource';
 export default class GoodsList extends ViewPU {
@@ -95,6 +96,21 @@ export default class GoodsList extends ViewPU {
                                     break;
                             }
                         });
+                        ListItem.onClick(() => {
+                            // 跳转到详情页去
+                            router.pushUrl({
+                                url: 'pages/DetailsPage',
+                                params: { "goods": {
+                                        goodsName: item === null || item === void 0 ? void 0 : item.goodsName,
+                                        price: item === null || item === void 0 ? void 0 : item.price,
+                                        originalPrice: item === null || item === void 0 ? void 0 : item.price,
+                                        discounts: { "id": 16777245, "type": 10003, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" },
+                                        label: { "id": 16777241, "type": 10003, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" },
+                                        goodsImg: item === null || item === void 0 ? void 0 : item.goodsImg,
+                                        goodsDescription: item === null || item === void 0 ? void 0 : item.advertisingLanguage
+                                    } }
+                            });
+                        });
                         if (!isInitialRender) {
                             ListItem.pop();
                         }
@@ -163,7 +179,7 @@ export default class GoodsList extends ViewPU {
                         this.observeComponentCreation((elmtId, isInitialRender) => {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Text.create(item === null || item === void 0 ? void 0 : item.advertisingLanguage);
-                            Text.fontColor({ "id": 16777239, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
+                            Text.fontColor({ "id": 16777302, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
                             Text.fontSize(commonConst.GOODS_EVALUATE_FONT_SIZE);
                             Text.margin({ right: commonConst.MARGIN_RIGHT, bottom: commonConst.BIGGER_FONT_SIZE });
                             if (!isInitialRender) {
@@ -186,7 +202,7 @@ export default class GoodsList extends ViewPU {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Text.create(item === null || item === void 0 ? void 0 : item.evaluate);
                             Text.fontSize(commonConst.GOODS_EVALUATE_FONT_SIZE);
-                            Text.fontColor({ "id": 16777237, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
+                            Text.fontColor({ "id": 16777297, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
                             if (!isInitialRender) {
                                 Text.pop();
                             }
@@ -197,7 +213,7 @@ export default class GoodsList extends ViewPU {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Text.create(item === null || item === void 0 ? void 0 : item.price);
                             Text.fontSize(commonConst.NORMAL_FONT_SIZE);
-                            Text.fontColor({ "id": 16777238, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
+                            Text.fontColor({ "id": 16777301, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
                             if (!isInitialRender) {
                                 Text.pop();
                             }
@@ -269,7 +285,7 @@ export default class GoodsList extends ViewPU {
                         this.observeComponentCreation((elmtId, isInitialRender) => {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Text.create(item === null || item === void 0 ? void 0 : item.advertisingLanguage);
-                            Text.fontColor({ "id": 16777239, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
+                            Text.fontColor({ "id": 16777302, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
                             Text.fontSize(commonConst.GOODS_EVALUATE_FONT_SIZE);
                             Text.margin({ right: commonConst.MARGIN_RIGHT, bottom: commonConst.BIGGER_FONT_SIZE });
                             if (!isInitialRender) {
@@ -292,7 +308,7 @@ export default class GoodsList extends ViewPU {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Text.create(item === null || item === void 0 ? void 0 : item.evaluate);
                             Text.fontSize(commonConst.GOODS_EVALUATE_FONT_SIZE);
-                            Text.fontColor({ "id": 16777237, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
+                            Text.fontColor({ "id": 16777297, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
                             if (!isInitialRender) {
                                 Text.pop();
                             }
@@ -303,7 +319,7 @@ export default class GoodsList extends ViewPU {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Text.create(item === null || item === void 0 ? void 0 : item.price);
                             Text.fontSize(commonConst.NORMAL_FONT_SIZE);
-                            Text.fontColor({ "id": 16777238, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
+                            Text.fontColor({ "id": 16777301, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
                             if (!isInitialRender) {
                                 Text.pop();
                             }

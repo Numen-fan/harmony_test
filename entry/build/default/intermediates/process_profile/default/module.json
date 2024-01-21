@@ -42,6 +42,17 @@
 						]
 					}
 				]
+			},
+			{
+				"name": "DetailsAbility",
+				"srcEntry": "./ets/DetailsAbility/DetailsAbility.ts",
+				"description": "$string:details_ability_desc",
+				"icon": "$media:icon",
+				"label": "$string:details_ability_label",
+				"startWindowIcon": "$media:icon",
+				"startWindowBackground": "$color:white",
+				"orientation": "portrait",
+				"exported": true
 			}
 		],
 		"virtualMachine": "ark9.0.0.0",

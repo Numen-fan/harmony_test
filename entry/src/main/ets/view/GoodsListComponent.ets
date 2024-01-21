@@ -12,6 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+import router from '@ohos.router';
 
 import * as commonConst from '../common/CommonConstants';
 import { GoodsListItemType } from '../viewmodel/InitialData';
@@ -81,6 +82,21 @@ export default struct GoodsList {
                 }
                 break;
             }
+          })
+          .onClick(() => {
+            // 跳转到详情页去
+            router.pushUrl({
+              url: 'pages/DetailsPage',
+              params: { "goods": {
+                goodsName: item?.goodsName,
+                price: item?.price,
+                originalPrice: item?.price,
+                discounts: $r('app.string.goods_list_item_1_save'),
+                label: $r('app.string.goods_list_activity_new'),
+                goodsImg: item?.goodsImg,
+                goodsDescription: item?.advertisingLanguage
+              } }
+            })
           })
         })
       }

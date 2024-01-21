@@ -179,7 +179,7 @@
       "error": false
     },
     "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/GoodsListComponent.ets": {
-      "mtimeMs": 1695035036000,
+      "mtimeMs": 1705846305337.7458,
       "children": [
         "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/CommonConstants.ets",
         "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/InitialData.ets",
@@ -245,6 +245,398 @@
       "mtimeMs": 978278400000,
       "children": [],
       "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.router.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/DetailsAbility/DetailsAbility.ts": {
+      "mtimeMs": 1681352740000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/pages/DetailsPage.ets": {
+      "mtimeMs": 1705846368924.6177,
+      "children": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/Constants.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/AddressComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/PickerComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/PriceComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/GoodsTitleComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/PanelComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/CommentsComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/CommentsHeaderComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/BottomBarComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/ServicesComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/BalanceComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/CardComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/PreviewerComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/GoodsData.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/DetailsViewModel.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/Constants.ets": {
+      "mtimeMs": 1695000356000,
+      "children": [],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/pages/DetailsPage.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/AddressComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/PickerComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/PriceComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/GoodsTitleComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/PanelComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/CommentsComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/CommentsHeaderComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/BottomBarComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/ServicesComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/ServiceItemComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/BalanceComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/CardComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/PreviewerComponent.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/AddressComponent.ets": {
+      "mtimeMs": 1705843778751.4863,
+      "children": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/Constants.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/DetailsConstants.ets"
+      ],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/pages/DetailsPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/PickerComponent.ets": {
+      "mtimeMs": 1695000356000,
+      "children": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/Constants.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/DetailsConstants.ets"
+      ],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/pages/DetailsPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/PriceComponent.ets": {
+      "mtimeMs": 1696749168000,
+      "children": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/Constants.ets"
+      ],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/pages/DetailsPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/GoodsTitleComponent.ets": {
+      "mtimeMs": 1695000356000,
+      "children": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/Constants.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/DetailsConstants.ets"
+      ],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/pages/DetailsPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/PanelComponent.ets": {
+      "mtimeMs": 1681352740000,
+      "children": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/Constants.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/DetailsConstants.ets"
+      ],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/pages/DetailsPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/CommentsComponent.ets": {
+      "mtimeMs": 1681352740000,
+      "children": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/Constants.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/DetailsConstants.ets"
+      ],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/pages/DetailsPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/CommentsHeaderComponent.ets": {
+      "mtimeMs": 1681352740000,
+      "children": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/Constants.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/DetailsConstants.ets"
+      ],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/pages/DetailsPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/BottomBarComponent.ets": {
+      "mtimeMs": 1696850516000,
+      "children": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/Constants.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/DetailsConstants.ets"
+      ],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/pages/DetailsPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/ServicesComponent.ets": {
+      "mtimeMs": 1696850516000,
+      "children": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/ServiceItemComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/ServicesViewModel.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/GoodsServiceData.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/Constants.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/DetailsConstants.ets"
+      ],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/pages/DetailsPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/BalanceComponent.ets": {
+      "mtimeMs": 1696749168000,
+      "children": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/Constants.ets"
+      ],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/pages/DetailsPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/CardComponent.ets": {
+      "mtimeMs": 1695000356000,
+      "children": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/Constants.ets"
+      ],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/pages/DetailsPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/PreviewerComponent.ets": {
+      "mtimeMs": 1705847742719.3948,
+      "children": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/Constants.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/DetailsConstants.ets"
+      ],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/pages/DetailsPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/GoodsData.ets": {
+      "mtimeMs": 1696850516000,
+      "children": [],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/pages/DetailsPage.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/DetailsViewModel.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/model/DataModel.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/DetailsViewModel.ets": {
+      "mtimeMs": 1705845554878.1443,
+      "children": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/model/DataModel.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/GoodsData.ets"
+      ],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/pages/DetailsPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.app.ability.common.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Library/Huawei/Sdk/openharmony/9/ets/api/application/AbilityStageContext.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Library/Huawei/Sdk/openharmony/9/ets/api/application/ExtensionContext.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Library/Huawei/Sdk/openharmony/9/ets/api/application/FormExtensionContext.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Library/Huawei/Sdk/openharmony/9/ets/api/ability/dataAbilityHelper.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Library/Huawei/Sdk/openharmony/9/ets/api/ability/dataAbilityOperation.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.ability.featureAbility.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Library/Huawei/Sdk/openharmony/9/ets/api/ability/startAbilityParameter.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Library/Huawei/Sdk/openharmony/9/ets/api/app/context.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Library/Huawei/Sdk/openharmony/9/ets/api/bundle/applicationInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Library/Huawei/Sdk/openharmony/9/ets/api/bundle/hapModuleInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Library/Huawei/Sdk/openharmony/9/ets/api/bundle/abilityInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.bundle.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Library/Huawei/Sdk/openharmony/9/ets/api/bundle/bundleInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.data.dataAbility.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.data.rdb.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/DetailsConstants.ets": {
+      "mtimeMs": 1695000356000,
+      "children": [],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/AddressComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/PickerComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/GoodsTitleComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/PanelComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/CommentsComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/CommentsHeaderComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/BottomBarComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/ServicesComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/ServiceItemComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/PreviewerComponent.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/ServiceItemComponent.ets": {
+      "mtimeMs": 1695000356000,
+      "children": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/Constants.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/common/constants/DetailsConstants.ets"
+      ],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/ServicesComponent.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/GoodsServiceData.ets": {
+      "mtimeMs": 1696850516000,
+      "children": [],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/ServicesComponent.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/model/DataModel.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/ServicesViewModel.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/model/DataModel.ets": {
+      "mtimeMs": 1696850516000,
+      "children": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/BannerData.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/MenuData.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/GoodsData.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/ToolBarData.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/GoodsServiceData.ets"
+      ],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/DetailsViewModel.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/ServicesViewModel.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/BannerData.ets": {
+      "mtimeMs": 1696850516000,
+      "children": [],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/model/DataModel.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/MenuData.ets": {
+      "mtimeMs": 1696850516000,
+      "children": [],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/model/DataModel.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/ToolBarData.ets": {
+      "mtimeMs": 1696850516000,
+      "children": [],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/model/DataModel.ets"
+      ],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/ServicesViewModel.ets": {
+      "mtimeMs": 1696850516000,
+      "children": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/model/DataModel.ets",
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/viewmodel/GoodsServiceData.ets"
+      ],
+      "parent": [
+        "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/ServicesComponent.ets"
+      ],
       "error": false
     }
   }

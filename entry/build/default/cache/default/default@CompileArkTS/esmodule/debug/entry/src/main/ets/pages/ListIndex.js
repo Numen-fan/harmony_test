@@ -34,7 +34,7 @@ class ListIndex extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Row.create();
             Row.height(LAYOUT_WIDTH_OR_HEIGHT);
-            Row.backgroundColor({ "id": 16777240, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
+            Row.backgroundColor({ "id": 16777308, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
             if (!isInitialRender) {
                 Row.pop();
             }
