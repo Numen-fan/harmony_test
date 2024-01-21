@@ -23,7 +23,7 @@
                 "descriptionId" : 16777218,
                 "exported" : true,
                 "icon" : "$media:icon",
-                "iconId" : 16777315,
+                "iconId" : 16777318,
                 "label" : "$string:EntryAbility_label",
                 "labelId" : 16777219,
                 "name" : "entryAbility",
@@ -42,25 +42,25 @@
                 ],
                 "srcEntry" : "./ets/entryability/EntryAbility.ts",
                 "startWindowBackground" : "$color:white",
-                "startWindowBackgroundId" : 16777310,
+                "startWindowBackgroundId" : 16777312,
                 "startWindowIcon" : "$media:icon",
-                "startWindowIconId" : 16777315
+                "startWindowIconId" : 16777318
             },
             {
                 "description" : "$string:details_ability_desc",
-                "descriptionId" : 16777236,
+                "descriptionId" : 16777238,
                 "exported" : true,
                 "icon" : "$media:icon",
-                "iconId" : 16777315,
+                "iconId" : 16777318,
                 "label" : "$string:details_ability_label",
-                "labelId" : 16777237,
+                "labelId" : 16777239,
                 "name" : "DetailsAbility",
                 "orientation" : "portrait",
                 "srcEntry" : "./ets/DetailsAbility/DetailsAbility.ts",
                 "startWindowBackground" : "$color:white",
-                "startWindowBackgroundId" : 16777310,
+                "startWindowBackgroundId" : 16777312,
                 "startWindowIcon" : "$media:icon",
-                "startWindowIconId" : 16777315
+                "startWindowIconId" : 16777318
             }
         ],
         "compileMode" : "esmodule",
@@ -71,6 +71,26 @@
         "deviceTypes" : 
         [
             "phone"
+        ],
+        "extensionAbilities" : 
+        [
+            {
+                "description" : "$string:EntryFormAbility_desc",
+                "descriptionId" : 16777220,
+                "label" : "$string:EntryFormAbility_label",
+                "labelId" : 16777221,
+                "metadata" : 
+                [
+                    {
+                        "name" : "ohos.extension.form",
+                        "resource" : "$profile:form_config",
+                        "resourceId" : 16777320
+                    }
+                ],
+                "name" : "EntryFormAbility",
+                "srcEntry" : "./ets/entryformability/EntryFormAbility.ts",
+                "type" : "form"
+            }
         ],
         "installationFree" : false,
         "mainElement" : "entryAbility",

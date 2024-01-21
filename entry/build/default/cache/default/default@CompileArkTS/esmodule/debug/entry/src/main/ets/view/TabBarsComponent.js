@@ -23,7 +23,7 @@ export default class TabBar extends ViewPU {
         this.timer = 0;
         this.__tabsIndex = new ObservedPropertySimplePU(0, this, "tabsIndex");
         this.__refreshStatus = new ObservedPropertySimplePU(false, this, "refreshStatus");
-        this.__refreshText = new ObservedPropertyObjectPU({ "id": 16777289, "type": 10003, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" }, this, "refreshText");
+        this.__refreshText = new ObservedPropertyObjectPU({ "id": 16777291, "type": 10003, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" }, this, "refreshText");
         this.setInitiallyProvidedValue(params);
     }
     setInitiallyProvidedValue(params) {
@@ -89,9 +89,9 @@ export default class TabBar extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Text.create({ "id": 16777290, "type": 10003, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
+            Text.create({ "id": 16777292, "type": 10003, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
             Text.fontSize(this.tabsIndex === 0 ? BIGGER_FONT_SIZE : NORMAL_FONT_SIZE);
-            Text.fontColor(this.tabsIndex === 0 ? Color.Black : { "id": 16777302, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
+            Text.fontColor(this.tabsIndex === 0 ? Color.Black : { "id": 16777304, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
             if (!isInitialRender) {
                 Text.pop();
             }
@@ -116,7 +116,7 @@ export default class TabBar extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(content);
             Text.fontSize(this.tabsIndex === index + 1 ? BIGGER_FONT_SIZE : NORMAL_FONT_SIZE);
-            Text.fontColor(this.tabsIndex === index + 1 ? Color.Black : { "id": 16777302, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
+            Text.fontColor(this.tabsIndex === index + 1 ? Color.Black : { "id": 16777304, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
             if (!isInitialRender) {
                 Text.pop();
             }
@@ -231,9 +231,9 @@ export default class TabBar extends ViewPU {
                 }
                 this.observeComponentCreation((elmtId, isInitialRender) => {
                     ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-                    Text.create({ "id": 16777291, "type": 10003, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
+                    Text.create({ "id": 16777293, "type": 10003, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
                     Text.fontSize(NORMAL_FONT_SIZE);
-                    Text.fontColor({ "id": 16777302, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
+                    Text.fontColor({ "id": 16777304, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
                     if (!isInitialRender) {
                         Text.pop();
                     }

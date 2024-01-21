@@ -104,8 +104,8 @@ export default class GoodsList extends ViewPU {
                                         goodsName: item === null || item === void 0 ? void 0 : item.goodsName,
                                         price: item === null || item === void 0 ? void 0 : item.price,
                                         originalPrice: item === null || item === void 0 ? void 0 : item.price,
-                                        discounts: { "id": 16777245, "type": 10003, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" },
-                                        label: { "id": 16777241, "type": 10003, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" },
+                                        discounts: { "id": 16777247, "type": 10003, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" },
+                                        label: { "id": 16777243, "type": 10003, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" },
                                         goodsImg: item === null || item === void 0 ? void 0 : item.goodsImg,
                                         goodsDescription: item === null || item === void 0 ? void 0 : item.advertisingLanguage
                                     } }
@@ -179,7 +179,7 @@ export default class GoodsList extends ViewPU {
                         this.observeComponentCreation((elmtId, isInitialRender) => {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Text.create(item === null || item === void 0 ? void 0 : item.advertisingLanguage);
-                            Text.fontColor({ "id": 16777302, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
+                            Text.fontColor({ "id": 16777304, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
                             Text.fontSize(commonConst.GOODS_EVALUATE_FONT_SIZE);
                             Text.margin({ right: commonConst.MARGIN_RIGHT, bottom: commonConst.BIGGER_FONT_SIZE });
                             if (!isInitialRender) {
@@ -202,7 +202,7 @@ export default class GoodsList extends ViewPU {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Text.create(item === null || item === void 0 ? void 0 : item.evaluate);
                             Text.fontSize(commonConst.GOODS_EVALUATE_FONT_SIZE);
-                            Text.fontColor({ "id": 16777297, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
+                            Text.fontColor({ "id": 16777299, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
                             if (!isInitialRender) {
                                 Text.pop();
                             }
@@ -213,7 +213,7 @@ export default class GoodsList extends ViewPU {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Text.create(item === null || item === void 0 ? void 0 : item.price);
                             Text.fontSize(commonConst.NORMAL_FONT_SIZE);
-                            Text.fontColor({ "id": 16777301, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
+                            Text.fontColor({ "id": 16777303, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
                             if (!isInitialRender) {
                                 Text.pop();
                             }
@@ -285,7 +285,7 @@ export default class GoodsList extends ViewPU {
                         this.observeComponentCreation((elmtId, isInitialRender) => {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Text.create(item === null || item === void 0 ? void 0 : item.advertisingLanguage);
-                            Text.fontColor({ "id": 16777302, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
+                            Text.fontColor({ "id": 16777304, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
                             Text.fontSize(commonConst.GOODS_EVALUATE_FONT_SIZE);
                             Text.margin({ right: commonConst.MARGIN_RIGHT, bottom: commonConst.BIGGER_FONT_SIZE });
                             if (!isInitialRender) {
@@ -308,7 +308,7 @@ export default class GoodsList extends ViewPU {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Text.create(item === null || item === void 0 ? void 0 : item.evaluate);
                             Text.fontSize(commonConst.GOODS_EVALUATE_FONT_SIZE);
-                            Text.fontColor({ "id": 16777297, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
+                            Text.fontColor({ "id": 16777299, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
                             if (!isInitialRender) {
                                 Text.pop();
                             }
@@ -319,7 +319,7 @@ export default class GoodsList extends ViewPU {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Text.create(item === null || item === void 0 ? void 0 : item.price);
                             Text.fontSize(commonConst.NORMAL_FONT_SIZE);
-                            Text.fontColor({ "id": 16777301, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
+                            Text.fontColor({ "id": 16777303, "type": 10001, params: [], "bundleName": "com.example.list_harmony", "moduleName": "entry" });
                             if (!isInitialRender) {
                                 Text.pop();
                             }

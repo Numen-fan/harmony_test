@@ -638,6 +638,30 @@
         "/Users/fanjiajia/Downloads/List/entry/src/main/ets/view/details/ServicesComponent.ets"
       ],
       "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/widget/pages/WidgetCard.ets": {
+      "mtimeMs": 1705847982760.4128,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Downloads/List/entry/src/main/ets/entryformability/EntryFormAbility.ts": {
+      "mtimeMs": 1705847982762.4465,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.app.form.formInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/fanjiajia/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.app.form.FormExtensionAbility.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
     }
   }
 }

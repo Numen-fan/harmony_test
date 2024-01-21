@@ -71,7 +71,8 @@
     {
       "name": "refresh_text",
       "value": "正在刷新"
-    },{
+    },
+    {
       "name": "details_ability_label",
       "value": "StageAbilityDemoDetail"
     },
@@ -294,6 +295,14 @@
     {
       "name": "details_ability_desc",
       "value": "description"
+    },
+    {
+      "name": "EntryFormAbility_desc",
+      "value": "form_description"
+    },
+    {
+      "name": "EntryFormAbility_label",
+      "value": "form_label"
     }
   ]
 }
